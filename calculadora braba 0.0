@@ -27,3 +27,14 @@ def logaritmo(x, base):
     if x <= 0 or base <= 0 or base == 1:
         return "Erro! Logaritmo indefinido para esses valores."
     return math.log(x, base)
+# mensagens.py
+
+def menu():
+    print("Selecione a operação desejada:")
+    print("1. Adição")
+    print("2. Subtração")
+    print("3. Multiplicação")
+    print("4. Divisão")
+    print("5. Potência")
+    print("6. Raiz Quadrada")
+    print("7. Logaritmo")
